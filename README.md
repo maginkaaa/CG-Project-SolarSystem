@@ -63,4 +63,5 @@ npx vite
 - [Saturn Texture - Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/1/1e/Solarsystemscope_texture_8k_saturn.jpg)
 - [Uranus Texture - Free-Photos on Pixabay](https://t4.ftcdn.net/jpg/03/38/48/79/360_F_338487951_noDUtHlzxljulqg525A9YZAup9IEpeNS.jpg)
 - [Sun Texture - Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/c/cb/Solarsystemscope_texture_2k_sun.jpg)
-- [YouTube Video Tutorial - Three.js Crash Course For Beginners](https://www.youtube.com/watch?v=_OwJV2xL8M8)
+- [YouTube Video - Three.js Crash Course For Beginners](https://www.youtube.com/watch?v=_OwJV2xL8M8)
+- [YouTube Video - Three.js Solar System](https://www.youtube.com/watch?v=KOSMzSyiEiA)
