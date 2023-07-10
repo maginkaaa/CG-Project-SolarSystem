@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "gsap": "^3.12.2",
+    "three": "^0.154.0",
+    "three-gltf-loader": "^1.111.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.2"
+  }
+}
