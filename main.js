@@ -9,7 +9,7 @@ const scene = new THREE.Scene();
 
 //The sun
 const sunGeometry = new THREE.SphereGeometry(8, 100, 100);
-const sunTexture = new THREE.TextureLoader().load("/assets/sun.jpg");
+const sunTexture = new THREE.TextureLoader().load("./assets/sun.jpg");
 const sunMaterial = new THREE.MeshBasicMaterial({map: sunTexture});
 const sunMesh = new THREE.Mesh(sunGeometry, sunMaterial);
 const solarSystem = new THREE.Group();
@@ -19,42 +19,42 @@ scene.add(solarSystem);
 
 //All planets
 //Distance from each other and size of planets is adjusted for better visualization
-const mercury = new Planet(1.5, 16, "/assets/mercury.jpg");
+const mercury = new Planet(1.5, 16, "./assets/mercury.jpg");
 const mercuryMesh = mercury.getMesh();
 const mercurySystem = new THREE.Group();
 mercurySystem.add(mercuryMesh);
 
-const venus = new Planet(3.8, 32, "/assets/venus.jpg");
+const venus = new Planet(3.8, 32, "./assets/venus.jpg");
 const venusMesh = venus.getMesh();
 const venusSystem = new THREE.Group();
 venusSystem.add(venusMesh);
 
-const earth = new Planet(4, 48, "/assets/earth.jpg");
+const earth = new Planet(4, 48, "./assets/earth.jpg");
 const earthMesh = earth.getMesh();
 const earthSystem = new THREE.Group();
 earthSystem.add(earthMesh);
 
-const mars = new Planet(2, 64, "/assets/mars.jpg");
+const mars = new Planet(2, 64, "./assets/mars.jpg");
 const marsMesh = mars.getMesh();
 const marsSystem = new THREE.Group();
 marsSystem.add(marsMesh);
 
-const jupiter = new Planet(10, 90, "/assets/jupiter.jpg");
+const jupiter = new Planet(10, 90, "./assets/jupiter.jpg");
 const jupiterMesh = jupiter.getMesh();
 const jupiterSystem = new THREE.Group();
 jupiterSystem.add(jupiterMesh);
 
-const saturn = new Planet(8, 132, "/assets/saturn.jpg");
+const saturn = new Planet(8, 132, "./assets/saturn.jpg");
 const saturnMesh = saturn.getMesh();
 const saturnSystem = new THREE.Group();
 saturnSystem.add(saturnMesh);
 
-const uranus = new Planet(5, 164, "/assets/uranus.jpg");
+const uranus = new Planet(5, 164, "./assets/uranus.jpg");
 const uranusMesh = uranus.getMesh();
 const uranusSystem = new THREE.Group();
 uranusSystem.add(uranusMesh);
 
-const neptune = new Planet(5, 200, "/assets/neptune.jpg");
+const neptune = new Planet(5, 200, "./assets/neptune.jpg");
 const neptuneMesh = neptune.getMesh();
 const neptuneSystem = new THREE.Group();
 neptuneSystem.add(neptuneMesh);
