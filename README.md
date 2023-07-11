@@ -18,6 +18,12 @@ The project is a solar system simulation where the planets orbit around the sun.
 - JavaScript
 - Three.js
 
+## Deployed webpage
+  
+https://maginkaaa.github.io/CG-Project-SolarSystem/
+
+TODO: explanation
+
 ## Installation
 
 1. Clone the repository:
@@ -41,7 +47,7 @@ npm install
 4. Run the development server:
 
 ```
-npx vite
+npm run
 ```
 
 
@@ -65,3 +71,5 @@ npx vite
 - [Sun Texture - Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/c/cb/Solarsystemscope_texture_2k_sun.jpg)
 - [YouTube Video - Three.js Crash Course For Beginners](https://www.youtube.com/watch?v=_OwJV2xL8M8)
 - [YouTube Video - Three.js Solar System](https://www.youtube.com/watch?v=KOSMzSyiEiA)
+- [Publishing A Three.js Project On GitHub Pages](https://hackernoon.com/publishing-a-threejs-project-on-github-pages-1d1a33dn)
+- [Host your Three.js project on GitHub Pages](https://blog.anirudhpanda.in/publish-threejs-project-on-github-pages)
