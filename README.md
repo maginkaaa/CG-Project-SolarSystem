@@ -8,10 +8,12 @@ The project is a solar system simulation where the planets orbit around the sun.
 
 ## Features
 
-- Realistic planet textures
-- Proper orbiting and self-rotation animations
-- User controls for navigation and exploration
-- Imported 3D object for stars background
+- Interactive 3D Solar System: The project utilizes the Three.js framework to create an interactive 3D representation of the solar system. Users can explore and navigate the virtual space to observe the planets and their orbits around the sun.
+- Realistic Planet Textures: Each planet in the solar system is rendered with high-resolution textures, sourced from various image references. These textures provide realistic visual representations of the planets' surfaces, enhancing the overall fidelity of the simulation.
+- Planetary Orbits and Rotation: The planets in the solar system exhibit accurate orbital movements around the sun, simulating their real-world trajectories and speeds. Additionally, the planets rotate around their axes, mimicking their self-rotation behaviors.
+- Lighting and Shadows: The scene includes directional lighting, which casts shadows to create a sense of depth and realism. This lighting setup enhances the visual appearance of the planets and adds an immersive dimension to the overall experience.
+- User Controls and Interaction: The application features interactive controls, powered by the OrbitControls module, allowing users to freely navigate the 3D space. Users can zoom in/out, rotate the camera, and explore different angles and perspectives to observe the solar system from various viewpoints.
+- Imported 3D Models: The project incorporates additional 3D models, such as the stars in the background, imported using the GLTFLoader. These models enrich the visual environment and contribute to the overall ambiance of the solar system simulation.
 
 ## Technologies Used
 
@@ -22,20 +24,28 @@ The project is a solar system simulation where the planets orbit around the sun.
   
 https://maginkaaa.github.io/CG-Project-SolarSystem/
 
-TODO: explanation
+In my project, I have three branches:
+
+1. `main`: This is the main branch of my project. It contains the project's code in its original state. In this branch, the asset paths are referenced as `/assets/photo.jpg`. It is meant for local development and testing. To run the project locally, you can use the command `npm install` followed by `npm run` or the appropriate command to start the development server.
+
+2. `pre_publish`: I created this branch as a pre-publish step. In this branch, I made modifications to the asset paths, changing them from `/assets/photo.jpg` to `./assets/photo.jpg`. This adjustment ensures that the assets are properly found when deployed. The purpose of this branch is to prepare the project for deployment on GitHub Pages.
+
+3. `gh-pages`: I specifically created this branch for deploying my project to GitHub Pages. It includes only the `index.html` file and the `assets` folder.
+
+It's worth mentioning that the last two links in the credits section provide additional resources and guides that explain the process of deploying a Three.js application.
 
 ## Installation
 
 1. Clone the repository:
 
 ```
-git clone https://github.com/maginkaaa/CG_Project_SolarSystem.git
+git clone https://github.com/maginkaaa/CG-Project-SolarSystem.git
 ```
 
 2. Open the project directory:
 
 ```
-cd CG_Project_SolarSystem
+cd CG-Project-SolarSystem
 ```
 
 3. Install the dependencies:
